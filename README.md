@@ -10,4 +10,4 @@ For this assignment, I created a portfolio website using flexbox.
 
 ### Link to deployed website
 
-https://pmgirardi.github.io/Bootcamp_Demo_Site/
+https://pmgirardi.github.io/Portfolio/

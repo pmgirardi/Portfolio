@@ -6,7 +6,7 @@ For this assignment, I created a portfolio website using flexbox.
 
 ### Screenshot
 
-![Deployed Website](assets/images/Screen Shot 2022-12-16 at 8.43.20 AM.png)
+![Deployed Website](/assets/images/Screen%20Shot%202022-12-16%20at%208.43.20%20AM.png) 
 
 ### Link to deployed website
 

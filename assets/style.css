@@ -59,7 +59,7 @@ p {
 
 hero {
     background-color: rgb(24, 67, 105);
-    background-image: url("images/Screen Shot 2022-12-16 at 7.41.08 AM.png");
+    background-image: url("images/Header.png");
     min-height: 20vh;
     text-align: center;
     font-size: 30px;
@@ -90,7 +90,7 @@ main {
 
 /* Put contact information in footer section  */
 footer {
-    background-image: url("images/Screen Shot 2022-12-16 at 7.41.08 AM.png");
+    background-image: url("images/Header.png");
 }
 
 /* left-side bar about me label for about me section  */

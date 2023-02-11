@@ -6,7 +6,7 @@ For this assignment, I created a portfolio website using flexbox.
 
 ### Screenshot
 
-![Deployed Website](/assets/images/screen_shot.png) 
+![Deployed Website](/background_img/deployed_portfolio.png)
 
 ### Link to deployed website
 

@@ -1,71 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <title>Portfolio</title>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
 
-<div class="container">
- <nav class="header">
-            <h1>Portfolio</h1>
-            <nav>
-                <ul>
-                    <a href="#about-me">About Me</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact-me">Contact Me</a>
-                </ul> 
-             </nav>
-            </nav>
-        </nav>
-    <hero>
-I'm Paige Girardi
-    </hero>
-    <div class="content">
-        <aside class="left-sidebar">
-           <article id="about-me" class="about-me">
-                    <h2>About Me</h2>
-                </article>
-    
-                <article id="work" class="work">
-                    <h2>Work</h2>
-                </article>
-     
-                <article id="contact-me" class="contact-me">
-                    <h2>Contact Me</h2>
-                </article>
+			<div class="nav-left">
+				<a href="https://www.linkedin.com/in/paige-girardi-441243192/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-linkedin fa_custom fa-2x"></i>
+					</span>
+				</a>
+				<a href="https://github.com/pmgirardi" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				</a>				
+			</div>
 
-        </aside>
-        <main>
-        <article id="about-me-content" class="about-me-content">
-            <p>I am currently attending UC Berkeley Coding Bootcamp to gain skills in coding and web design.</p> 
-                <p>I have a BS in Geography and have worked as a GIS Analyst for Apple, Insight Global,</p><p>and a Location Moderation Specialist for Snap INC.</p>
-                <p>I live in the mountainous area of Grizzly Flats, CA within the Seirra Nevada mountain range.</p>
-                <p>I have an identitcal twin who I grew up riding dirt bikes with. We also play music together and I love playing guitar.</p>
-        </article>
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#resume">Resume</a>
+				<a class="nav-item" href="#social">Contact Me</a>
+			</div>
 
-        <article id="work-content" class="work-content">
-            <a href="https://pmgirardi.github.io/Bootcamp_Demo_Site/"><img src="assets/images/Challenge1.png"></a>
-            <a href="https://pmgirardi.github.io/prework-study-guide/"><img src="assets/images/Prework.png"></a>
-            <a href="https://hngreenberg.github.io/Film-Finder---Project-1/"><img src="assets/images/Project1.png"></a>
-        </article>
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+    <h1 class="name">My name is Paige Girardi.</h1> 
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
 
-        <article id="contact-me-content" class="contact-me-content">
+				<img class="avatar" src="background_img/IMG_7764.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					I am from Grizzly Flats, CA. I am currently attending UC Berkley Coding Bootcamp, earning a certificate in Full Stack Web Development. I have a BS in Geography and experience working in GIS, editing, digitizing, and analyzing data. 
+				</p>
+			</div>
+		</section>	
+		
+		<!-- Projects -->
+	
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				<div class="columns is-multiline is-desktop">
+		<!-- Project 1  -->
+			<div class="column">
+				<div class="box project-text">
+					<article>
+						<div>
+						<figure class="image project-figure2">
+							<a target="_blank" href="https://github.com/pmgirardi/The-Traveler-Weather-Dashboard"><img src="background_img/project1_logo.png" alt="Image"></a>
+							</figure>
+								</div>
+								<div>			
+									<p>
+										A weather forecast application that allows a user to find the current and 5 day forecast of a city.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
 
-            <ul>
-                <a href="#email">Email</a>
-                <a href="https://github.com/pmgirardi">Github</a>
-            </ul> 
-
-        </article>
-</main>
-    </div>
-    <footer> 
-      <h4>Thanks for viewing</h4>
-</footer>
-</div> 
-</body>
+				
+					<!-- Project 2 -->
+		<div class="column">
+			<div class="box project-text">
+				<article>
+					<div>
+						<figure class="image project-figure">
+							<a target="_blank" href="https://github.com/hngreenberg/Film-Finder---Project-1"><img src="background_img/project2_logo.png" alt="Image"></a>
+								</figure>
+								</div>
+								<div>			
+									<p>
+										A group based project: A movie finder app using APIs. On this project, I worked on the CSS styling.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+					<!-- Resume -->
+					<section  id="resume" class="section section-2">
+						<div class="container">
+							<div class="has-text-centered">
+								<h3 class="title is-3">Resume</h3>
+							</div>
+							<div class="columns is-multiline is-desktop">
+	
+						<div class="column">
+							<div class="box resume-text">
+								<article>
+						<div class="has-text-centered">
+						<a target="_blank" href="https://docs.google.com/document/d/1-AEQyGNUeFt8IBn8a_QdrG7jV4j35elfGjuC-ileh_8/edit?usp=sharing"><img class="" src="background_img/myresume_logo.png"></a>
+					</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Contact Me</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a href="mailto:girardipm@gmail.com"><img src="background_img/email_logo.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+					<img src="background_img/phone_logo.png" /> 
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+		Thanks for viewing!
+		</section>
+	
+	</body>	
 </html>

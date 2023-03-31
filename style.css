@@ -68,6 +68,12 @@ a.nav-item:hover {
     width: 500px;
 }
 
+.project-figure2 {
+	margin: 0 auto 1rem auto;
+    height: 250px;
+    width: 200px;
+}
+
 
 .project-text {
 	text-align: justify;
